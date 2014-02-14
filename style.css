@@ -1,0 +1,72 @@
+body {
+  background: #3F9CB2;
+  color: #A1F2FF;
+  font: 16px/1.4 SRC, monospace;
+}
+a {
+  color: #FFA654;
+  text-decoration: none;
+  font-weight: bold;
+  transition: .25s color, .25s padding;
+}
+a:hover {
+  color: #FF7A00;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+h1 {
+  font-size: 400%;
+  line-height: 1.4em;
+}
+h2 {
+  font-size: 150%;
+}
+#page {
+  margin: 0 auto;
+  text-align: center;
+}
+#page-title {
+  padding: 190px 0 25px 0;
+  text-shadow: rgb(57, 140, 160) 1px 1px,
+    rgb(57, 140, 160) 2px 2px,
+    rgb(57, 140, 160) 3px 3px,
+    rgb(57, 140, 160) 4px 4px,
+    rgb(57, 140, 160) 5px 5px,
+    rgb(57, 140, 160) 6px 6px,
+    rgb(57, 140, 160) 7px 7px,
+    rgb(57, 140, 160) 8px 8px,
+    rgb(57, 140, 160) 9px 9px,
+    rgb(57, 140, 160) 10px 10px,
+    rgb(57, 140, 160) 11px 11px,
+    rgb(57, 140, 160) 12px 12px,
+    rgb(57, 140, 161) 13px 13px,
+    rgb(57, 141, 162) 14px 14px,
+    rgb(58, 142, 163) 15px 15px,
+    rgb(58, 143, 164) 16px 16px,
+    rgb(58, 144, 165) 17px 17px,
+    rgb(59, 145, 166) 18px 18px,
+    rgb(59, 146, 167) 19px 19px,
+    rgb(59, 147, 168) 20px 20px,
+    rgb(60, 148, 169) 21px 21px,
+    rgb(60, 148, 170) 22px 22px,
+    rgb(60, 149, 171) 23px 23px,
+    rgb(61, 150, 172) 24px 24px,
+    rgb(61, 151, 173) 25px 25px,
+    rgb(61, 152, 174) 26px 26px,
+    rgb(62, 153, 175) 27px 27px,
+    rgb(62, 154, 176) 28px 28px,
+    rgb(62, 155, 177) 29px 29px,
+    rgb(63, 156, 178) 30px 30px;
+}
+ul#profiles li {
+  display: inline-block;
+  margin: .5em;
+  transition: .25s color;
+}
+ul#profiles li:hover {
+  color: #FFF;
+}
