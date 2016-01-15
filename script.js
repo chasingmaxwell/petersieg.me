@@ -1,9 +1,9 @@
-(function($){
+(function ($){
 
   'use strict';
 
-  $(window).load(function() {
-    $('.profile-link').on('click', function(e) {
+  $(window).load(function () {
+    $('.profile-link').on('click', function (e) {
 
       // Initiate variables.
       var profileId, href;
@@ -13,7 +13,7 @@
       // Send the event to analytics and send the user to the external url when
       // we're done.
       ga('send', 'event', 'Profile Links', 'Click', profileId, {
-        'hitCallback': function() {
+        'hitCallback': function () {
           document.location.href = href;
         }
       });
@@ -24,4 +24,3 @@
     });
   });
 })(jQuery);
-
