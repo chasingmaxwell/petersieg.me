@@ -2,6 +2,7 @@ body {
   background: #3F9CB2;
   color: #A1F2FF;
   font: 16px/1.4 SRC, monospace;
+  padding: 0 1em;
 }
 a {
   color: #FFA654;
@@ -23,7 +24,8 @@ h1 {
   line-height: 1.4em;
 }
 h2 {
-  font-size: 150%;
+  font-size: 200%;
+  margin-bottom: 1.5em;
 }
 #page {
   margin: 0 auto;
@@ -63,9 +65,10 @@ h2 {
     rgb(63, 156, 178) 30px 30px;
 }
 ul#profiles li {
-  display: inline-block;
+  display: block;
   margin: .5em;
   transition: .25s color;
+  font-size: 200%;
 }
 ul#profiles li:hover {
   color: #FFF;
